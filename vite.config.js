@@ -23,7 +23,7 @@ export default ({mode}) => {
       },
     },
     plugins: [
-      laravel(['resources/js/bootstrap.js']),
+      laravel(['resources/js/bootstrap.jsx']),
       react(),
     ],
   });
